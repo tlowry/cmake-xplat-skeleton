@@ -5,7 +5,7 @@
  * Created on 06 March 2014, 17:26
  */
 
-#include "../Greeter.h"
+#include "../greeter.h"
 
 namespace greet {
 
@@ -16,7 +16,7 @@ namespace greet {
     }
 
 	std::string Greeter::Greet() {
-		std::string resp = "Greetings from the Posix greeting implementation";
+		std::string resp = "Greetings from the Windows greeting implementation";
 		return resp;
     }
 	
