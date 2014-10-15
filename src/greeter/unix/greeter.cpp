@@ -16,7 +16,7 @@ namespace greet {
     }
 
 	std::string Greeter::Greet() {
-		std::string resp = "Greetings from the Posix greeting implementation";
+		std::string resp = "Greetings from the unix greeting implementation";
 		return resp;
     }
 	
